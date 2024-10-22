@@ -77,9 +77,48 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "group": "UserInfo",
+          "pages": [
+            "api-reference/userinfo/get-user-info"
+          ]
+        },
+        {
+          "group": "Models",
+          "pages": [
+            "api-reference/models/get-model-list"
+          ]
+        },
+        {
+          "group": "Chat Completions",
+          "pages": [
+            "api-reference/chat-completions/chat-completions"
+          ]
+        },
+        {
+          "group": "Embeddings",
+          "pages": [
+            "api-reference/embeddings/create-embeddings"
+          ]
+        },
+        {
+          "group": "Audio",
+          "pages": [
+            "api-reference/audio/create-audio-transcriptions"
+          ]
+        },
+        {
+          "group": "Rerank",
+          "pages": [
+            "api-reference/rerank/create-rerank"
+          ]
+        },
+        {
+          "group": "Image",
+          "pages": [
+            "api-reference/image/image-generation"
+          ]
+        }
       ]
     }
   ],
